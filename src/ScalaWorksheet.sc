@@ -1,6 +1,7 @@
 
 import assignment1.{AddList, CountingChange, ParenthesesBalancing, PascalsTriangle}
 import demo.Hello
+import week2coursera.HigherOrderFunctions
 
 val hello = new Hello
 println(hello.sayHello("Scala"))
@@ -17,3 +18,6 @@ println(countChange.countChange(4, coins))
 
 val addList = new AddList
 val myListAdded = addList.addList(coins)
+
+val sumMe = new HigherOrderFunctions
+sumMe.sum(x => x * x, 3, 5)
